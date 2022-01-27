@@ -1,0 +1,14 @@
+# full_T99621AA3-user 11 RP1A.200720.011 mp1V44 release-keys
+- manufacturer: 
+- platform: mt6761
+- codename: IRM_sprout
+- flavor: full_T99621AA3-user
+- release: 11
+- id: RP1A.200720.011
+- incremental: 00WW_3_310
+- tags: release-keys
+- fingerprint: Nokia/Ironman_00WW/IRM_sprout:11/RP1A.200720.011/00WW_3_310:user/release-keys
+- is_ab: true
+- brand: Nokia
+- branch: full_T99621AA3-user-11-RP1A.200720.011-mp1V44-release-keys
+- repo: nokia_irm_sprout_dump9778

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- com.google.android.feature.ANDROID_ONE_EXPERIENCE -->
+<!-- ExtR WVR-542, dengyong.wt, ADD, 20200528, [GSW-018] Feature flag -->
+<permissions>
+    <feature name="com.google.android.feature.ANDROID_ONE_EXPERIENCE" />
+    <feature name="com.google.android.feature.ZERO_TOUCH" />
+    <feature name="com.google.android.googlequicksearchbox.AMBIENT_DISPLAY_CHIPS" />
+</permissions>

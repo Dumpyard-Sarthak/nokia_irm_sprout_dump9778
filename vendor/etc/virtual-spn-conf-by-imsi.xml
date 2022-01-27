@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualSpnOverridesByImsi version="1">
+<virtualSpnOverride imsipattern="2080120801xxx67xxxxx" name="Virgin"/>
+<!--IRM-8662 spn update renkai.wt 20191120 begin-->
+<virtualSpnOverride imsipattern="2060120601889xxxxxxx" name="Telenet"/>
+<!--IRM-8662 spn update renkai.wt 20191120 end-->
+</virtualSpnOverridesByImsi>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications that come with the platform
+-->
+<permissions>
+    <privapp-permissions package="com.android.systemui">
+        <permission name="android.permission.MANAGE_VOICE_KEYPHRASES"/>
+        <!-- Add reboot permission for subsidy lock request8 -->
+        <permission name="android.permission.REBOOT"/>
+    </privapp-permissions>
+
+    <!-- ADD IRM-8299,guxiaoguang.wt,ADD,20191111 -->
+    <privapp-permissions package="com.hmdglobal.app.fmradio">
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING" />
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+        <permission name="android.permission.ACCESS_BROADCAST_RADIO" />
+    </privapp-permissions>
+    <!-- ADD IRM-8299,guxiaoguang.wt,ADD,20191111 -->
+
+    <privapp-permissions package="com.android.quicksearchbox">
+        <permission name="android.permission.GLOBAL_SEARCH"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.hotwordenrollment.okgoogle">
+        <permission name="android.permission.KEYPHRASE_ENROLLMENT_APPLICATION"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.hotwordenrollment.xgoogle">
+        <permission name="android.permission.KEYPHRASE_ENROLLMENT_APPLICATION"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+</permissions>
